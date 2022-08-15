@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+nav li {
+  display: inline-flex;
+  margin: 16px;
+  list-style-type: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 16px;
+  color: white;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
