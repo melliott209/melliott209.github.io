@@ -21,6 +21,11 @@ section {
   margin: auto;
 }
 
+hr {
+  width: 100%;
+  margin: 16px auto;
+}
+
 /* ========================================================================== */
 /*                            Sections And Classes                            */
 /* ========================================================================== */
@@ -148,4 +153,28 @@ header h1 {
 #cta button:hover {
   cursor: pointer;
   background-color: #333;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  align-self: flex-start;
+}
+
+#contact h2,
+p,
+ul {
+  margin: 16px;
+}
+
+#contact ul {
+  width: 250px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
